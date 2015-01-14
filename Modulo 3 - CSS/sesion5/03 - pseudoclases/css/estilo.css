@@ -1,0 +1,41 @@
+html, body {
+	font-family: Arial;
+	margin: 0px;
+	padding: 0px;
+}
+
+a:link {
+	color: rgb(100, 200, 250);
+}
+
+a:visited {
+	color: rgb(100, 100, 100);
+}
+
+a:active {
+	color: green;
+}
+
+a:hover {
+	color: rgb(200, 200, 100);
+}
+
+/*
+p:last-child {
+    color: blue;
+}
+*/
+
+table, table tr td {
+	border: solid 1px rgb(200, 200, 200);
+	border-collapse: collapse;
+}
+
+table tr:nth-child(2n+1) {
+	background-color: rgb(240, 240, 240);
+}
+
+table tr:hover {
+	background-color: rgb(200, 200, 200);	
+	cursor: pointer;
+}

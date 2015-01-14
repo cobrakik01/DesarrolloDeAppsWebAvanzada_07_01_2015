@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			/* Se aplicara siempre que "p" sea el primer hijo */
+			p:first-child {
+			    color: blue;
+			} 
+
+			/* Se aplica siempre que "p" sea el ultimo hijo */
+			p:last-child {
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+		Según la regla css, se aplicara el color azul siempre que el primer hijo sea una "p", en este caso no se aplica puesto que "h1" es el primer hijo, coloque una etiqueta "p" ates que esta etiqueta "h1" y observe el resultado.
+		-->
+		<h1>Pseudoclase: first-child</h1>
+		<p>This is some text.</p>
+		<p>This is some text.</p>
+		<p><b>Note:</b> For :first-child to work in IE8 and earlier, a DOCTYPE must be declared.</p>
+	</body>
+</html>

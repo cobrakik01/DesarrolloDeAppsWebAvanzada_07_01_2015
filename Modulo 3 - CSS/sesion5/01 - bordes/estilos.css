@@ -1,0 +1,24 @@
+html, body {
+	font-family: Arial;
+	margin: 0px;
+}
+
+.caja {
+	background-color: rgb(240, 240, 240);
+	width: 500px;
+	min-height: 100px;
+	border: solid 1px rgb(100, 100, 100);
+	margin: 0px auto;
+	padding: 10px;
+
+	/* CSS3 */
+	box-shadow: 10px 10px 10px rgb(100, 100, 100);
+	-webkit-box-shadow: 10px 10px 10px rgb(100, 100, 100); /* chrome */
+	-o-box-shadow: 10px 10px 10px rgb(100, 100, 100); /* opera */
+	-moz-box-shadow: 10px 10px 10px rgb(100, 100, 100); /* firefox */
+
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+}

@@ -1,0 +1,23 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: gray;
+}
+.pos-rel 
+{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	background-color: green;
+	left: 20px;
+	top: 20px;
+}
+
+.pos-abs
+{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	opacity: 0.7;
+	background-color: blue;
+}

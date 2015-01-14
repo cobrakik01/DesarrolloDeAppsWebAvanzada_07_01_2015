@@ -1,0 +1,28 @@
+html, body {
+	margin: 0px;
+}
+
+.contenedor1 {
+	overflow: hidden;
+}
+
+.contenedor1 div {
+	float: left;
+	width: 100px;
+	background-color: rgb(255, 200, 200);
+	border: solid 1px rgb(100, 100, 100);
+	padding: 50px;
+}
+
+.contenedor2 {
+	padding: 20px;
+	background-color: rgb(10, 200, 200);
+}
+
+.contenedor3 {
+	color: white;
+	margin-left: 75%;
+	width: 15%;
+	padding: 5%;
+	background-color: rgb(200, 10, 20);
+}
