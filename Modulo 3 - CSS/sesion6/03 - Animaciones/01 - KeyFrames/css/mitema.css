@@ -1,0 +1,26 @@
+@import 'fuentes.css';
+@import 'animaciones.css';
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	font-family: MiFuente, Arial;
+}
+
+.caja {
+	position: relative;
+	padding: 20px;
+	font-size: 20px;
+	width: 300px;
+	background-color: rgb(200, 200, 200);
+	border-left: solid 1px rgb(100, 100, 100);
+}
+
+.caja:hover {
+	/*
+	                                        FuncionTiempo
+	animation: [NombreDeFrame] [duracion]s [ease|linear|ease-in|ease-out|ease-in-out|];
+	*/
+	-webkit-animation: MiAnimacion 1s infinite alternate;
+	animation: MiAnimacion 1s infinite alternate;
+}

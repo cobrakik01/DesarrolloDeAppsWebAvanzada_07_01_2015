@@ -1,0 +1,4 @@
+TTF: TrueType Format
+OTF: OpenType Format
+ 
+http://www.1001freefonts.com/

@@ -1,0 +1,18 @@
+html, body {
+	border: 0px;
+	margin: 0px;
+}
+
+.font1 {
+	font-family: MiFuente, OtraFuente, MiFuente, Arial, serif;
+}
+
+@font-face {
+	font-family: MiFuente;
+	src: url("../fonts/DK Poison Ivy.otf");
+}
+
+@font-face {
+	font-family: OtraFuente;
+	src: url("../fonts/BroadcastTitling.ttf");
+}

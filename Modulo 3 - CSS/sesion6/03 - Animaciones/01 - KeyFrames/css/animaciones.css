@@ -1,0 +1,63 @@
+/* Estandar */
+@keyframes MiAnimacion {
+	10% {
+		font-weight: bold;
+		color: white;
+		background-color: blue;
+		border-left: solid 5px rgb(100, 100, 100);
+	}
+	100% {
+		background-color: red;
+		border-left: solid 30px rgb(100, 100, 100);
+		width: 50%;
+		opacity: 0;
+	}
+}
+
+/* Chrome */
+@-webkit-keyframes MiAnimacion {
+	10% {
+		font-weight: bold;
+		color: white;
+		background-color: blue;
+		border-left: solid 5px rgb(100, 100, 100);
+	}
+	100% {
+		background-color: red;
+		border-left: solid 30px rgb(100, 100, 100);
+		width: 50%;
+		opacity: 0;
+	}
+}
+
+/* Opera */
+@-o-keyframes MiAnimacion {
+	10% {
+		font-weight: bold;
+		color: white;
+		background-color: blue;
+		border-left: solid 5px rgb(100, 100, 100);
+	}
+	100% {
+		background-color: red;
+		border-left: solid 30px rgb(100, 100, 100);
+		width: 50%;
+		opacity: 0;
+	}
+}
+
+/* Firefox */
+@-moz-keyframes MiAnimacion {
+	10% {
+		font-weight: bold;
+		color: white;
+		background-color: blue;
+		border-left: solid 5px rgb(100, 100, 100);
+	}
+	100% {
+		background-color: red;
+		border-left: solid 30px rgb(100, 100, 100);
+		width: 50%;
+		opacity: 0;
+	}
+}

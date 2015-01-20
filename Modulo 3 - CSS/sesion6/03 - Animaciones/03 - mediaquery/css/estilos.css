@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+}
+
+.chico,
+.mediano,
+.grande {
+    clear: both;
+}
+
+/* Aplica los estilos siempre que este entre 400px y 500px*/
+@media (min-width: 400px) and (max-width: 500px) {
+    h1 {
+        text-align: center;
+        margin: 1%;
+    }
+    .estiloresponsive {
+        text-align: center;
+        float: right;
+        padding-left: 15px; 
+    }
+    .chico {
+        display: none;
+    }
+}
+
+/* Aplica los estilos siempre que este entre 400px y 500px*/
+@media (min-width: 500px) and (max-width: 600px) {
+    h1{
+        margin: 1%;
+        float: right;
+        color: red;
+    }
+    .estiloresponsive {
+        float: right;
+        color: blue;
+        padding-left: 15px; 
+    }
+    .mediano {
+        display: none;
+    }
+}
+
+/* funciona solo si es mayor o igual a 800px */
+@media (min-width: 601px) {
+    h1{
+        color: blue;
+        margin: 1%;
+    }
+    .estiloresponsive {
+    	color: red;
+    	font-size: 20px;
+    }
+
+    .grande {
+        display: none;
+    }
+}

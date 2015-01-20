@@ -1,0 +1,9 @@
+[att^="val"]
+
+Selecciona un elemento cuyo atributo "att" tenga un valor comienza con "val". Si "val" fuera la cadena vacía, el selector no selecciona nada. 
+[att$="val"]
+
+Selecciona un elemento con el atributo "att" cuyo valor termina con el sufijo "val". Si "val" es la cadena vacía, el selector no selecciona nada. 
+[att*="val"]
+
+Selecciona un elemento con el atributo "att" cuyo valor contiene al menos una instancia de la subcadena "val". Si "val" es la cadena vacía, el selector no selecciona nada.
