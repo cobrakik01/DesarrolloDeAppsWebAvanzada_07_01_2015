@@ -1,0 +1,11 @@
+/* Pantallas medianas */
+@import 'md-grid.css';
+
+/* Pantallas pequeñas */
+@import 'sm-grid.css';
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
